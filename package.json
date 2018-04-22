@@ -1,0 +1,29 @@
+{
+  "name": "statik",
+  "version": "1.0.0",
+  "description": "A starter kit for static websites.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/statik#readme",
+  "keywords": ["node"],
+  "main": "src/index.js",
+  "files": ["src"],
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/statik.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/statik/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "prettier": "1.12.1"
+  },
+  "license": "MIT"
+}
