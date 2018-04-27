@@ -1,8 +1,7 @@
 * {
   box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -12,23 +11,23 @@ body {
 }
 
 .container {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
   height: 100vh;
-  max-width: 960px;
+  justify-content: center;
 }
 
 h1 {
-  margin: 0;
   font-size: 5rem;
+  margin: 0;
+  margin-bottom: 1rem;
   letter-spacing: 1rem;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 p {
   font-size: 2rem;
+  margin-bottom: 1rem;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
